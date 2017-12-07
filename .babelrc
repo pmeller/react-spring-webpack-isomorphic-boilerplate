@@ -1,0 +1,15 @@
+{
+  "presets": [
+    "react",
+    [ "env", {
+      "targets": {
+        "browsers": ["> 1%", "last 4 versions", "not IE < 9"]
+      },
+      "useBuiltIns": true
+    }]
+  ],
+  "plugins": [
+    "transform-object-rest-spread",
+    "transform-class-properties"
+  ]
+}

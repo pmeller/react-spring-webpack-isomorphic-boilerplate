@@ -1,0 +1,16 @@
+---
+parser: babel-eslint
+extends:
+  - standard
+  - standard-react
+rules:
+  max-len:
+    - error
+    - 120
+    - ignoreStrings: true
+      ignoreTemplateLiterals: true
+  comma-dangle:
+    - error
+    - always-multiline
+  prefer-const:
+    - error
